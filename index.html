@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oufit|Roboto|Trirong">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="inner-con">
+    <img src="images/Noter-LASTV2 1.png" alt="logo">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Notes</a></li>
+          <li><a href="#">Contacts</a></li>
+      </ul>
+      <a href="#">Login</a>
+    </div>
+  </nav>
+  <header class="hero" id="hero">
+    <div class="bg-main">
+      <div class="left-imgs">
+        <img src="images/Noter-LASTV2 1.png" alt="Noter" class="noter-main">
+        <img src="images/Noter-LASTV2 2.png" alt="Noter" class="slogan">
+        <br>
+        <button><a href="#try-noter">Start Now</a></button>
+      </div>
+    </div>
+      <div class="right-imgs">
+        <img src="images/Rectangle 14.png" alt="">
+      </div>
+  </header>
+  <main>
+    <div class="cont-bg-desc">
+        <section class="desc">
+          <div class="card">
+            <div class="content">
+              <h3>
+                No More Lose Focus
+              </h3>
+              <p>Just keep up what ever you are doing and Noter will handle the rest. Like really!!
+                Noter writes the notes from any speech, so that you can stay focused and
+                continue what ever you are doing.</p>
+                <img src="images/icons8-pencil-90 (1) 1.png" alt="" style="bottom: 195px;">
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>
+                Save All Noter Notes
+              </h3>
+              <p>You can save the notes that got created by Noter in your device. 
+                Or just subscribe with Noter+ and all of your notes will be in one place.</p>
+                <img src="images/sticky-note 1.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>
+                Listen To Your Notes
+              </h3>
+              <p>Tired of reading? Now with Noter+ you can listen to your notes with one click.</p>
+                <img src="images/icons8-speaker-64 (1) 1.png" alt="" style="bottom: 120px;">
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>
+                Your Study Buddy
+              </h3>
+              <p>From speech to text to notes to QAs. Now with Noter+ turn any note you have to 
+                QAs so that you it become easy to memorize.</p>
+                <img src="images/qa 1.png" alt="">
+            </div>
+          </div>
+      </section>
+      <div class="bg-desc">
+        <img src="images/background.png" alt="">
+      </div>
+    </div>
+    <section class="try-noter">
+      <img src="images/Ellipse 6.png" alt="">
+      <div class="try-noter-content">
+        <h2 id="try-noter">Try It Your Self</h2>
+        <div class="box">
+          <div>
+            <div class="box-content">
+              <div class="buttons-cont">
+                <label for="audio" class="button">audio
+                  <input type="file" name="audio" id="audio" accept="audio/*">
+                </label>
+                <abbr title="Not supported yet );" style="text-decoration: none;"><label for="" class="button">video
+                  <input type="file" name="video" id="video" accept="video/*">
+                </label></abbr>
+                <abbr title="Not supported yet );" style="text-decoration: none;"><label for="" class="button">record now
+                  <input type="file" name="record" id="record" accept="audio/*">
+                </label></abbr>
+                </div>
+                <input type="hidden" name="id" id="id">
+              <button type="submit" class="submit-file" onclick="generateHtml()">Genrate</button>
+            </div>
+          </div>
+          <div class="notes-ai" id="notes-ai">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- More content here -->
+  <footer class="footer" id="footer">
+      <div class="developers" id="developers">
+          <!-- Add developer images and names here -->
+          <div class="developers-content">
+            <div class="img-cont">
+              <img src="images/1689347292355 1.png" class="img">
+            </div>
+            <p id="p1">Abduallrahman Abduallah</p>
+            <p id="p2">Game Developer</p>
+            <p id="p3">🤖Team   🕸Team</p>
+          </div>
+          <div class="developers-content">
+            <div class="img-cont">
+              <img src="images/MEme 1.png" class="img">
+            </div>
+            <p id="p1">Mohammed Fahad</p>
+            <p id="p2">Full Stack Web Developer</p>
+            <p id="p3">🤖Team   🕸Team   🎨Team</p>
+          </div>
+          <div class="developers-content">
+            <div class="img-cont">
+              <img src="images/user (1) 1.png" alt="">
+            </div>
+            <p id="p1">Munira Aldaej</p>
+            <p id="p2">Senior IS Student</p>
+            <p id="p3">🎨Team</p>
+          </div>
+          <div class="developers-content">
+            <div class="img-cont">
+              <img src="images/WhatsApp Image 2023-07-06 at 13.42 2.png" class="img">
+            </div>
+            <p id="p1">Sultan Alhawashleh</p>
+            <p id="p2">Fresh Graudate IS Student</p>
+            <p id="p3">🤖Team</p>
+          </div>
+          <div class="developers-content">
+            <div class="img-cont">
+              <img src="images/Saleh.png" class="img">
+            </div>
+            <p id="p1">Saleh Alzayed</p>
+            <p id="p2">Back End Web Developer </p>
+            <p id="p3">🕸Team</p>
+          </div>
+      </div>
+      <img src="images/Rectangle 18.png" alt="" id="end-img">
+  </footer>
+</body></html>
